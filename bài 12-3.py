@@ -10,8 +10,10 @@ for i in range(n):
     tt['name'] = ch
     tuoi = random.randint(1,100)
     tt['age'] =tuoi
-    print('list số ',i+1)
-    print(tt)
+    list.append(tt)
+print(list)
+for index, value in enumerate(list, 1):
+    print(f'{index}: {value}')
 
 
 
